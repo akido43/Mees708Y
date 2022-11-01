@@ -44,3 +44,6 @@ melt() #how to change the code. Look at handout for codes.
 #do teh exercises at the bottom 
 
 
+#Exercised
+library(MASS)
+data("birthwt")
