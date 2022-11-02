@@ -46,4 +46,9 @@ melt() #how to change the code. Look at handout for codes.
 
 #Exercised
 library(MASS)
-data("birthwt")
+data(birthwt)
+#1 
+head(birthwt)
+sub.birth20 <- subset(birthwt, age <20)
+sub.birth20.25 <- subset(birthwt,age>20&age<35)
+sub.birth35 <- subset(birthwt, age>25)
